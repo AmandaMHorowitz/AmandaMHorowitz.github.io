@@ -25,16 +25,14 @@ body {
 .wrapper {
   display: grid;
   grid-gap: 10px;
-  background-color: #white;
-  color: #black;
+  background-color: aliceblue;
+  color: black;
 
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 15% 60%;
   grid-template-areas:
     'image header'
     'sidebar content'
     'footer footer';
-    background-color: #gray;
-    color: #white;
 }
 
 .box {
