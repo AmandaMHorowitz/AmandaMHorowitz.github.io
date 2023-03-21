@@ -1,14 +1,52 @@
-h1{
-	font-size: 20em;
-	color: black;
+body {
+  margin: 40px;
 }
-<body id="main">
-	<div class="wrapper">
-		<div class="box header">Amanda's Portfolio</div>
-		<div class="box sidebar">Portfolio Projects</div>
-		<div class="box content">My Bio
-			<br /> This is where I'll put my video and bio info</div>
-		<div class="box footer">Information about class at MIT</div>
-	</div>
-</body>
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
+
+.header {
+   grid-area: header;
+}
+
+.image {
+   grid-area: image;
+}
+
+.footer {
+	grid-area: footer
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+
+  grid-template-columns: 300px 300px 300px;
+  grid-template-areas:
+    'image header header'
+    'sidebar content content'
+    'footer  footer  footer';
+    background-color: #ffffff;
+    color: #444444;
+}
+
+.box {
+  background-color: #0000ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #999;
+}
 		
