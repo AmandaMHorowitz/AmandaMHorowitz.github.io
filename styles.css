@@ -32,23 +32,25 @@ body {
   grid-template-areas:
     'image header'
     'sidebar content'
-    'footer  footer';
+    'footer footer';
     background-color: #gray;
     color: #white;
 }
 
 .box {
-  background-color: #cadetblue;
+  background-color: #LightGray;
   color: #white;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
+  font-family: Helvetica (sans-serif);
 }
 
 .header {
 	background-color: #white;
-	font-size: 300%;
-	color: black
+	font-size: 600%;
+	font-family: Impact (sans-serif);
+	color: black;
 }
 
 		
