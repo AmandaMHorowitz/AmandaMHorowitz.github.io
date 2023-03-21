@@ -28,7 +28,7 @@ body {
   background-color: #white;
   color: #black;
 
-  grid-template-columns: 3000px 3000px 3000px;
+  grid-template-columns: 30% 45% 45%;
   grid-template-areas:
     'image header header'
     'sidebar content content'
