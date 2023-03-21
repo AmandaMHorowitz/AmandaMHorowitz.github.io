@@ -28,11 +28,11 @@ body {
   background-color: #white;
   color: #black;
 
-  grid-template-columns: 30% 45% 45%;
+  grid-template-columns: 25% 75%;
   grid-template-areas:
-    'image header header'
-    'sidebar content content'
-    'footer  footer  footer';
+    'image header'
+    'sidebar content'
+    'footer  footer';
     background-color: #gray;
     color: #white;
 }
