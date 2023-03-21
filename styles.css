@@ -45,8 +45,10 @@ body {
   font-size: 150%;
 }
 
-.header,
-.footer {
-  background-color: #white;
+.header {
+	background-color: #white;
+	font-size: 300%;
+	color: black
 }
+
 		
