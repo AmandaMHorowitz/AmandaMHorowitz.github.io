@@ -1,5 +1,5 @@
 body {
-  margin: 40px;
+  margin: 10%;
 }
 
 .sidebar {
@@ -28,7 +28,7 @@ body {
   background-color: aliceblue;
   color: black;
 
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 70%;
   grid-template-areas:
     'image header'
     'sidebar content'
@@ -48,7 +48,7 @@ body {
 	background-color: #white;
 	font-size: 600%;
 	font-family: Impact (sans-serif);
-	color: blue;
+	color: black;
 }
 
 		
