@@ -22,31 +22,34 @@ body {
 	grid-area: footer;
 }
 
+.video {
+	gride-area: video;
+}
+
 .wrapper {
   display: grid;
   grid-gap: 10px;
   background-color: aliceblue;
   color: black;
 
-  grid-template-columns: 20% 70%;
+  grid-template-columns: 20% 38% 38%;
   grid-template-areas:
-    'image header'
-    'sidebar content'
-    'footer footer';
+    'image header header'
+    'sidebar video content'
+    'footer footer footer';
 }
 
-.box {
-  background-color: #LightGray;
-  color: #white;
+.content {
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
   font-family: Helvetica (sans-serif);
+  color: black;
 }
 
 .header {
 	background-color: #white;
 	font-size: 600%;
 	font-family: Impact (sans-serif);
-	color: black;
+	color: #09075F;
 }
