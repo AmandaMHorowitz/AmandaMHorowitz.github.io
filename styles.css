@@ -54,11 +54,17 @@ body {
 }
 
 .footer {
+  font-size: 125%;
+  font-family: Helvetica (sans-serif);
+  color: black;
+  position: center;
+}
+.sidebar {
   font-size: 150%;
   font-family: Helvetica (sans-serif);
   color: black;
 }
-.sidebar {
+.video {
   font-size: 150%;
   font-family: Helvetica (sans-serif);
   color: black;
