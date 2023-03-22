@@ -40,8 +40,6 @@ body {
 }
 
 .content {
-  border-radius: 5px;
-  padding: 10px;
   font-size: 150%;
   font-family: Helvetica (sans-serif);
   color: black;
@@ -52,4 +50,17 @@ body {
 	font-size: 600%;
 	font-family: Impact (sans-serif);
 	color: #09075F;
+	position: center;
+}
+
+.footer {
+  font-size: 100%;
+  font-family: Helvetica (sans-serif);
+  color: black;
+}
+.sidebar {
+  font-size: 150%;
+  font-family: Helvetica (sans-serif);
+  color: black;
+  padding: 45px;
 }
